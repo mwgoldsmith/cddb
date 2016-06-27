@@ -35,6 +35,7 @@
 #  include <iconv.h>
 #else
    typedef void *iconv_t;       /* for code uniformity */
+   #define ICONV_CONST const
 #endif
 
 #ifdef HAVE_WINDOWS_H
